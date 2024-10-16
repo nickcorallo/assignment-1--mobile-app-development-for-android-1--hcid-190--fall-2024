@@ -10,3 +10,4 @@ fun main() {
     // Same as the other Scanner intake.
     println("Enter the number of columns: ")
     val columns = scan.nextInt()
+}
