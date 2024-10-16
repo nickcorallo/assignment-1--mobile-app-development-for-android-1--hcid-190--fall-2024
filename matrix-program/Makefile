@@ -1,11 +1,10 @@
 filename = matrix
-all: complie run
+all: compile run
 compile:
 	kotlinc $(filename).kt -include-runtime -d $(filename).jar
 
-	run:
-		java -jar $(filename).jar
+run:
+	java -jar $(filename).jar
 
-	clean:
-		rm $(filename).jar
-
+clean:
+	rm  $(filename).jar
